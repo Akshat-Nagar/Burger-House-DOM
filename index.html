@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Burger House Billing</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="left">
+            <img src="/images/logo.png" class="logo">
+            <div class="menu">
+                <h1>REGULAR</h1>
+                <div class="menu-align">
+                    <button class="icon" id="r1">
+                        <img src="/images/r1.jpg" width="150px" height="150px">
+                        <p>Baked Beamer</p>
+                        <p>59/-</p>
+                    </button>
+
+                    <button class="icon" id="r2">
+                        <img src="/images/r2.jpg" width="150px" height="150px">
+                        <p>Fried Patty</p>
+                        <p>59/-</p>
+                    </button>
+
+                    <button class="icon" id="r3">
+                        <img src="/images/r3.png" width="150px" height="150px">
+                        <p>Crispy Nugget</p>
+                        <p>65/-</p>
+                    </button>
+                </div>
+
+                <h1>DOUBLE DECKER</h1>
+                <div class="menu-align">
+                    <button class="icon" id="d1">
+                        <img src="/images/d1.webp" width="150px" height="150px">
+                        <p>Patty Twisted</p>
+                        <p>85/-</p>
+                    </button>
+    
+                    <button class="icon" id="d2">
+                        <img src="/images/d2.jpg" width="150px" height="150px">
+                        <p>Crunch Beam</p>
+                        <p>85/-</p>
+                    </button>
+    
+                    <button class="icon" id="d3">
+                        <img src="/images/d3.jpg" height="150px" width="150px">
+                        <p>Double Patty</p>
+                        <p>85/-</p>
+                    </button>
+                </div>
+
+                <h1>JUMBO</h1>
+                <div class="menu-align">
+                    <button class="icon" id="j1">
+                        <img src="/images/j1.jpg" width="150px" height="150px">
+                        <p>Big Jumbo</p>
+                        <p>115/-</p>
+                    </button>
+
+                    <button class="icon" id="j2">
+                        <img src="/images/j2.jpg" width="150px" height="150px">
+                        <p>Center Crunch</p>
+                        <p>115/-</p>
+                    </button>
+
+                    <button class="icon" id="j3">
+                        <img src="/images/j3.jpg" width="150px" height="150px">
+                        <p>Center Beam</p>
+                        <p>115/-</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right trans">
+            <h1 class="heading">Your Order</h1>
+            <ol id="list"></ol>
+            <div class="ll">
+                <div style="display: flex;justify-content: space-between;">
+                    <p>Total:</p>
+                    <p class="sum" id="total"> /- </p>
+                </div>
+                <button class="clear" id="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
